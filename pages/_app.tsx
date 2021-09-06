@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import "../styles/styles.css";
 import "tailwindcss/tailwind.css";
 import React from "react";
 
