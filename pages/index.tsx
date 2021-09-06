@@ -15,7 +15,8 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <MatrixText
-          className="font-semibold"
+          className="font-bold text-3xl"
+          glyphClass="bg-red-500"
           delay={20}
           text="Juan Dharmananda Khusuma"
         />
