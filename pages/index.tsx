@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import MatrixText from "./components/MatrixTextEffect/index";
+import MatrixText from "../components/MatrixTextEffect/index";
 
 /**
  * @return {JSX.Element}
