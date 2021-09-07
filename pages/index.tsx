@@ -1,13 +1,13 @@
 import Head from "next/head";
 import React from "react";
-import MatrixText from "../components/MatrixTextEffect/index";
+import MatrixText from "../components/MatrixTextEffect";
 
 /**
  * @return {JSX.Element}
  */
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 font-azeret">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-900 font-azeret">
       <Head>
         <title>Juan D Khusuma | Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,10 +15,10 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <MatrixText
-          className="font-bold text-3xl"
+          className="font-bold text-white sm:text-lg md:text-xl lg:text-2xl"
           glyphClass="bg-red-500"
-          delay={20}
-          text="Juan Dharmananda Khusuma"
+          delay={2000}
+          text="Juan Khusuma"
         />
       </main>
 
