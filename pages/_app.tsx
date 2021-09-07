@@ -9,7 +9,7 @@ import React from "react";
  */
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="crt">
+    <div className="crt font-ubuntu">
       <Component {...pageProps} />
     </div>
   );

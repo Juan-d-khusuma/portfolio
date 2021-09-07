@@ -4,8 +4,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      azeret: ["Azeret Mono", "monospace"],
-      rampart: ["Rampart One", "cursive"],
+      ubuntu: ["Ubuntu Mono", "monospace"],
+      noto: ["Noto Sans JP", "cursive"],
     },
     extend: {},
   },

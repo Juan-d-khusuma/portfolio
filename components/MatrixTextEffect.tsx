@@ -68,7 +68,7 @@ export default function MatrixText({
         __span.className += className;
         __span.innerText = item.value;
         __span.style.fontFamily =
-          item.type == "Glyph" ? "Noto Sans JP" : "Azeret Mono";
+          item.type == "Glyph" ? "Noto Sans JP" : "Ubuntu Mono";
         return __span;
       });
       __container.replaceChildren(...charMap);

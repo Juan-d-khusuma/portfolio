@@ -18,13 +18,13 @@ export default function Home() {
           className="font-bold text-white sm:text-lg md:text-xl lg:text-2xl"
           glyphClass="bg-red-500"
           delay={800}
-          text="Juan Khusuma"
+          text="$juan-d-khusuma"
         />
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+      <footer className="flex items-center justify-center w-full h-24">
         <a
-          className="flex items-center justify-center"
+          className="flex items-center justify-center text-white"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
