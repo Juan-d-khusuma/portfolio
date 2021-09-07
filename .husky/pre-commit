@@ -3,6 +3,7 @@
 
 echo '🏗️👷 Styling, testing and building your project before committing'
 npm run prettify
+git add -A
 
 # Check Prettier standards
 npm run test:format ||

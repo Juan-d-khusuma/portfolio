@@ -8,7 +8,11 @@ import React from "react";
  * @return {JSX.Element}
  */
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <div className="crt">
+      <Component {...pageProps} />
+    </div>
+  );
 }
 
 export default MyApp;
