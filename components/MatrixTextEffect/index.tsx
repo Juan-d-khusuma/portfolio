@@ -40,6 +40,8 @@ interface MatrixTextProps {
   start?: boolean;
   delay?: number;
   className?: string;
+  valueClass?: string;
+  glyphClass?: string;
 }
 
 /**
@@ -50,7 +52,7 @@ export default function MatrixText({
   text,
   start = true,
   delay: startDelay = 0,
-  className,
+  className = "",
 }: MatrixTextProps) {
   const output = useRef<ShuffleValue[]>([{ type: "Glyph", value: "" }]);
   const container = useRef();
@@ -63,8 +65,7 @@ export default function MatrixText({
     const renderOutput = () => {
       const charMap = output.current.map((item) => {
         const __span = document.createElement("span");
-        __span.className = `matrix-text__${item.type}`;
-        className && (__span.className += className);
+        __span.className += className;
         __span.innerText = item.value;
         __span.style.fontFamily =
           item.type == "Glyph" ? "Rampart One" : "Azeret Mono";
@@ -89,13 +90,14 @@ export default function MatrixText({
         })
       ).start(springVal);
     }
-
     return () => {
-      animation && animation?.stop();
+      if (animation) {
+        animation.stop();
+      }
     };
   }, [start, startDelay, text]);
   return (
-    <span className="matrix-text">
+    <span>
       <span ref={container}></span>
     </span>
   );
