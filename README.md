@@ -1,6 +1,6 @@
 ## <p align="center">Juan Dharmananda Khusuma Portfolio Website </p>
 
-<p align="center">Portfolio website to showcase my skill, passion, and projects.<p align="center"></p>
+<p align="center">Portfolio website to showcase my skill, passion, and projects.</p><p align="center">
 **Made with 💖**</p>
 
 ## <p align="center">Powered By</p>
