@@ -17,7 +17,7 @@ export default function Home() {
         <MatrixText
           className="font-bold text-white sm:text-lg md:text-xl lg:text-2xl"
           glyphClass="bg-red-500"
-          delay={2000}
+          delay={800}
           text="Juan Khusuma"
         />
       </main>

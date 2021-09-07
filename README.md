@@ -8,7 +8,22 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 
 Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stac
+
+## <p align="center">Juan Dharmananda Khusuma Portfolio Website </p>
+
+Portfolio website to showcase my skill, passion, and projects.<p align="center">
+**Made with 💖**</p>
+
+## <p align="center">Powered By</p>
+
+<p align="center">
+	<img src="https://img.shields.io/badge/-Vercel%20+%20NextJS-gray?style=for-the-badge&logo=vercel" />
+	<img src="https://img.shields.io/badge/-React-gray?style=for-the-badge&logo=react" />
+	<img src="https://img.shields.io/badge/-TailwindCSS-gray?style=for-the-badge&logo=tailwindcss" />
+	<img src="https://img.shields.io/badge/-SASS-gray?style=for-the-badge&logo=sass" />
+</p>
+kblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
 ## Deploy your own
 
